@@ -8,7 +8,8 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body>
+<body >
+    <p style="direction:rtl">  سایت فروشگاهی  ایران</p>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -22,6 +23,9 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+                    <li>@Html.ActionLink("products", "Index", "products")</li>
+
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>

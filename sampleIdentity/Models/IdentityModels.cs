@@ -29,5 +29,7 @@ namespace sampleIdentity.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<sampleIdentity.Models.Product> Products { get; set; }
     }
 }
